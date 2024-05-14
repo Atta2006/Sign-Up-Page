@@ -38,4 +38,42 @@ body{
     background-color: rgb(149, 235, 141);
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.form-right-logo{
+    width: 7rem;
+    height: 7rem;
+}
+
+.input-container {
+    position: relative;
+}
+
+.name-input-icon {
+    padding-left: 30px; /* Adjust as needed to make space for the icon */
+    background-image: url('../img/bx-user.png'); /* Replace 'search-icon.png' with your icon's file path */
+    background-repeat: no-repeat;
+    background-position: 5px center; /* Adjust the position of the icon */
+    background-size: 20px 20px; /* Adjust the size of the icon */
+    border: 1px solid #ccc; /* Add border for styling */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    height: 40px; /* Adjust height as needed */
+    width: 250px; /* Adjust width as needed */
+    /* background-blend-mode: darken; */
+}
+
+.sign-up-btn{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 0;
+    padding: 8px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
